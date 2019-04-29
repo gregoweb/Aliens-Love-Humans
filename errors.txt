@@ -1,0 +1,22 @@
+﻿I'm sorry, but errors were detected in your script. Please correct the
+errors listed below, and try again.
+
+
+File "game/script.rpy", line 52: reached end of line when expecting ':'.
+    if mood == 'fav'
+                    ^
+
+File "game/script.rpy", line 54: expected statement.
+    else
+        ^
+
+File "game/script.rpy", line 93: reached end of line when expecting ':'.
+    if mood == 'fav'
+                    ^
+
+File "game/script.rpy", line 103: expected statement.
+    else
+        ^
+
+Ren'Py Version: Ren'Py 7.2.2.491
+Mon Apr 29 22:51:00 2019

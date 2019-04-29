@@ -1,0 +1,22 @@
+﻿I'm sorry, but an uncaught exception occurred.
+
+While running game code:
+  File "game/script.rpy", line 123, in script
+    a "Goodbye"
+Exception: Sayer 'a' is not defined.
+
+-- Full Traceback ------------------------------------------------------------
+
+Full traceback:
+  File "game/script.rpy", line 123, in script
+    a "Goodbye"
+  File "C:\Jeux\renpy\renpy-6.99.14.3-sdk\renpy\ast.py", line 664, in execute
+    who = eval_who(self.who, self.who_fast)
+  File "C:\Jeux\renpy\renpy-6.99.14.3-sdk\renpy\ast.py", line 564, in eval_who
+    raise Exception("Sayer '%s' is not defined." % who.encode("utf-8"))
+Exception: Sayer 'a' is not defined.
+
+Windows-7-6.1.7601-SP1
+Ren'Py 7.2.2.491
+Aliens Love Humans 1.0
+Mon Apr 29 23:05:22 2019
